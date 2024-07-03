@@ -46,6 +46,16 @@ header, main, footer, .project-card, section {
     width: 20px;
 }
 
+.project-details {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px;
+}
+
+.description {
+    grid-column: 1 / -1;
+}
+
 ul {
     list-style: none;
 }
