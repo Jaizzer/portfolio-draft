@@ -63,3 +63,9 @@ header, main, footer, section {
 ul {
     list-style: none;
 }
+
+@media (max-width: 450px) {
+    #projects {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
