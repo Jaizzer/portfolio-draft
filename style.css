@@ -7,6 +7,10 @@ header, main, footer, .project-card, section {
     border: 1px solid black;
 }
 
+.about-me-card img, footer>img {
+    width: 200px;
+}
+
 .project-screenshot {
     width: 350px;
     height: 300px;
