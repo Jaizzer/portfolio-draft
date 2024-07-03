@@ -13,9 +13,12 @@ header, main, footer, .project-card, section {
 }
 
 #projects {
+    padding: 20px;
+
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-template-rows: auto 1fr;
+    gap: 20px;
 }
 
 #works {
