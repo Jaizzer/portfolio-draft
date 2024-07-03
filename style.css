@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header, main, footer, .project-card, section {
+header, main, footer, section {
     border: 1px solid black;
 }
 
