@@ -17,6 +17,10 @@ header, main, footer, .project-card, section {
     object-fit: contain;
 }
 
+ul {
+    list-style: none;
+}
+
 #projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
