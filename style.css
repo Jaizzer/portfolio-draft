@@ -5,6 +5,15 @@
     margin: 0;
 }
 
+:root {
+    --text: #111023;
+    --background: #e0e0f1;
+    --primary: #5c57b2;
+    --secondary: #cfcee9;
+    --accent: #5c57b2; 
+    --hover:#464386; 
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +29,15 @@ footer {
     padding: 30px;
 }
 
+header {
+    background-color: var(--secondary);
+    color: var(--text)
+}
+
 #about-me {
+    background-color: var(--background);
+    color: var(--text);
+
     border: 0px;
 
     display: grid;
@@ -28,6 +45,7 @@ footer {
 }
 
 .about-me-card {
+    background-color: white;
     overflow: hidden;
 
     border: 0px;
@@ -57,12 +75,19 @@ footer {
     border: 0px;
     border-radius: 4px;
     padding: 10px 15px;
-    background-color: #24292e;
+    background-color: var(--accent);
     color: white;
     font-weight: 500;
 }
 
+#about-me-details button:hover {
+    background-color: var(--hover);
+}
+
 #projects {
+    background-color: var(--background);
+    color: var(--text);
+
     border: 0px;
 
     display: grid;
@@ -77,6 +102,8 @@ footer {
 }
 
 .project-card {
+    background-color: white;
+
     overflow: hidden;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -111,6 +138,9 @@ footer {
 
     display: grid;
     grid-template-columns: 1fr auto; 
+
+    background-color: var(--secondary);
+    color: var(--text);
 }
 
 .contact-details {
