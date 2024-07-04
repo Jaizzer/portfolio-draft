@@ -107,7 +107,47 @@ footer>img {
     line-height: 25px;
 }
 
+footer {
+    border: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr auto; 
+}
+
+.contact-details {
+    padding: 20px;
+    display: grid;
+    gap: 20px
+}
+
+.call-to-action,
+.grid-column,
+.phone,
+.email,
 ul {
+    grid-column: 1 / 2;
+}
+
+footer img {
+    width: 300px;
+}
+
+.address {
+    grid-column: 1 / 2;
+}
+
+.phone, .email {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+ul {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    gap: 15px;
     list-style: none;
 }
 
@@ -118,7 +158,8 @@ ul {
 }
 
 @media (max-width: 641px) {
-    .about-me-card {
+    .about-me-card,
+    footer {
         grid-template-columns: 1fr;
     }
 
@@ -126,7 +167,8 @@ ul {
         line-height: 30px;
     }
 
-    .about-me-card img {
+    .about-me-card img,
+    footer img {
         width: 100%;
     }
 }
