@@ -46,6 +46,10 @@ header, main, footer, section {
     gap: 15px;
 }
 
+#about-me-description {
+    line-height: 25px;
+}
+
 #about-me-details button {
     border: 0px;
     border-radius: 4px;
@@ -96,6 +100,7 @@ header, main, footer, section {
 
 .description {
     grid-column: 1 / -1;
+    line-height: 25px;
 }
 
 ul {
@@ -111,6 +116,10 @@ ul {
 @media (max-width: 641px) {
     .about-me-card {
         grid-template-columns: 1fr;
+    }
+
+    #about-me-description {
+        line-height: 30px;
     }
 
     .about-me-card img {
