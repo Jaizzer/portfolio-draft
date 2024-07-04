@@ -17,6 +17,35 @@ header, main, footer, section {
     width: 200px;
 }
 
+#about-me {
+    padding: 20px;
+
+    display: grid;
+    gap: 20px;
+}
+
+.about-me-card {
+    overflow: hidden;
+
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.about-me-card img {
+    width: 300px;
+}
+
+#about-me-details {
+    padding: 30px;
+    display: grid;
+    align-content: center;
+    gap: 15px;
+}
+
 #projects {
     padding: 20px;
 
@@ -67,5 +96,15 @@ ul {
 @media (max-width: 450px) {
     #projects {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 641px) {
+    .about-me-card {
+        grid-template-columns: 1fr;
+    }
+
+    .about-me-card img {
+        width: 100%;
     }
 }
