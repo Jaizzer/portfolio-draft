@@ -22,7 +22,7 @@ header, footer, section {
     border: 1px solid black;
 }
 
-header,
+
 #about-me,
 #projects,
 footer {
@@ -31,6 +31,7 @@ footer {
 
 header {
     background-color: var(--secondary);
+    padding: 20px 30px;
    
     color: var(--text);
     font-size: 10px;
