@@ -13,10 +13,6 @@ header, footer, section {
     border: 1px solid black;
 }
 
-footer>img {
-    width: 200px;
-}
-
 header,
 #about-me,
 #projects,
