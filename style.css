@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header, main, footer, section {
+header, footer, section {
     border: 1px solid black;
 }
 
@@ -18,6 +18,8 @@ header, main, footer, section {
 }
 
 #about-me {
+    border: 0px;
+
     padding: 20px;
 
     display: grid;
@@ -60,6 +62,8 @@ header, main, footer, section {
 }
 
 #projects {
+    border: 0px;
+
     padding: 20px;
 
     display: grid;
