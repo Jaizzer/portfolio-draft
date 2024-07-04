@@ -206,5 +206,6 @@ ul {
     .about-me-card img,
     footer img {
         width: 100%;
+        height: auto;
     }
 }
