@@ -17,10 +17,15 @@ footer>img {
     width: 200px;
 }
 
+header,
+#about-me,
+#projects,
+footer {
+    padding: 30px;
+}
+
 #about-me {
     border: 0px;
-
-    padding: 20px;
 
     display: grid;
     gap: 20px;
@@ -63,8 +68,6 @@ footer>img {
 
 #projects {
     border: 0px;
-
-    padding: 20px;
 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
